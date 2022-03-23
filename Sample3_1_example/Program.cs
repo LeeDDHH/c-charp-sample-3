@@ -28,11 +28,13 @@ Console.WriteLine();
 
 // do while
 
-int k = 0;
-do
-{
-    Console.Write("★");
-    k++;
+if (num > 0) {
+    int k = 0;
+    do
+    {
+        Console.Write("★");
+        k++;
+    }
+    while (k < num);
+    Console.WriteLine();
 }
-while (k < num);
-Console.WriteLine();
