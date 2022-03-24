@@ -35,6 +35,14 @@ Dictionary<string, int>[] matrix = new Dictionary<string, int>[10];
 int incrementSize = 10;
 int sizeIndex = -1;
 
+/*
+ * matrix[0]→ min: 0, max:10
+ * matrix[1]→ min: 10, max:20
+ * matrix[2]→ min: 20, max:30
+ * ︙
+ * のように格納する
+ */
+
 foreach (Dictionary<string, int> dic in  matrix) {
     sizeIndex++;
     matrix[sizeIndex] = new Dictionary<string, int >();
